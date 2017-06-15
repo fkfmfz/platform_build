@@ -680,26 +680,26 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   # Dump fingerprints
   #script.Print("Target: %s" % CalculateFingerprint(
   #    oem_props, oem_dict, OPTIONS.info_dict))
-  script.Print("******************************************");
-  script.Print("*  _____ ___   __  _____   ____  __  __  *");
-  script.Print("* / ____(_) \ / / |  __ \ / __ \|  \/  | *");
-  script.Print("*| (___  _ \ V /  | |__) | |  | | \  / | *");
-  script.Print("* \___ \| | > <   |  _  /| |  | | |\/| | *");
-  script.Print("* ____) | |/ . \  | | \ \| |__| | |  | | *");
-  script.Print("*|_____/|_/_/ \_\_|_|  \_\\____/ |_|  |_| *");
-  script.Print("*               | |__  _   _             *");
-  script.Print("*               | '_ \| | | |            *");
-  script.Print("*               | |_) | |_| |            *");
-  script.Print("*               |_.__/ \__, |            *");
-  script.Print("*                       __/ |            *");
-  script.Print("*        _____   ____ _|___/             *");
-  script.Print("*       |  __ \|___ \|  __ \             *");
-  script.Print("*       | |__) | __) | |  | |___         *");
-  script.Print("*       |  _  / |__ <| |  | / __|        *");
-  script.Print("*       | | \ \ ___) | |__| \__ \        *");
-  script.Print("*       |_|  \_\____/|_____/|___/        *");
-  script.Print("*                                        *");
-  script.Print("******************************************");
+  script.Print("**********************************************");
+  script.Print("*   _____       _____   _____   ____  __  __ *");
+  script.Print("*  / ____|     / ____| |  __ \ / __ \|  \/  |*");
+  script.Print("* | (___   ___| (___   | |__) | |  | | \  / |*");
+  script.Print("*  \___ \ / _ \\___ \  |  _  /| |  | | |\/| |*");
+  script.Print("*  ____) | (_) |___) | | | \ \| |__| | |  | |*");
+  script.Print("* |_____/ \___/_____/  |_|  \_\\____/|_|  |_|*");
+  script.Print("* | |                                        *");
+  script.Print("* | |__  _   _                               *");
+  script.Print("* | '_ \| | | |                              *");
+  script.Print("* | |_) | |_| |                              *");
+  script.Print("* |_.__/ \__, |                              *");
+  script.Print("*         __/ |                              *");
+  script.Print("*  _____ |___/  _____                        *");
+  script.Print("* |  __ \|___ \|  __ \                       *");
+  script.Print("* | |__) | __) | |  | |___                   *");
+  script.Print("* |  _  / |__ <| |  | / __|                  *");
+  script.Print("* | | \ \ ___) | |__| \__ \                  *");
+  script.Print("* |_|  \_\____/|_____/|___/                  *");
+  script.Print("**********************************************");
 
   script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
   device_specific.FullOTA_InstallBegin()
